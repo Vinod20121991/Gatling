@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.RampUsersLoadTest",
+  "simulationId": "rampusersloadtest",
+  "start": 1674459664335,
+  "description": "rampupuserstest",
+  "scenarios": ["to get data from csv feeder"],
+  "assertions": [
+
+  ]
+}

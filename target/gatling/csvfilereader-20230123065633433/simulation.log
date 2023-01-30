@@ -1,0 +1,12 @@
+RUN	simulations.CSVFileReader	csvfilereader	1674456993433	csv	3.5.1
+USER	to get data from csv feeder	START	1674456994701
+REQUEST		to read data from csv file	1674456994723	1674456996332	OK	 
+REQUEST		to read data from csv file	1674456996374	1674456996898	OK	 
+REQUEST		to read data from csv file	1674456996903	1674456997264	OK	 
+REQUEST		to read data from csv file	1674456997266	1674456997645	OK	 
+REQUEST		to read data from csv file	1674456997646	1674456998042	OK	 
+REQUEST		to read data from csv file	1674456998043	1674456998434	OK	 
+REQUEST		to read data from csv file	1674456998436	1674456998779	OK	 
+REQUEST		to read data from csv file	1674456998780	1674456999124	OK	 
+REQUEST		to read data from csv file	1674456999125	1674456999468	OK	 
+USER	to get data from csv feeder	END	1674456999470

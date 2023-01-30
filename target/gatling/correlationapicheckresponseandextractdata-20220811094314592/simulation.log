@@ -1,0 +1,5 @@
+RUN	simulations.CorrelationApiCheckResponseAndExtractData	correlationapicheckresponseandextractdata	1660210994592	 	3.5.1
+USER	To check Api Correlation	START	1660210995858
+REQUEST		to get list of users	1660210995872	1660210997177	OK	 
+ERROR	get the specific user: Failed to build request: No attribute named 'userId' is defined 	1660211002234
+USER	To check Api Correlation	END	1660211002236

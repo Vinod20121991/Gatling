@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.TestAPISimulation",
+  "simulationId": "testapisimulation",
+  "start": 1660127375988,
+  "description": "",
+  "scenarios": ["get users request"],
+  "assertions": [
+
+  ]
+}

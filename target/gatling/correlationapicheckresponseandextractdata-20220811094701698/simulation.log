@@ -1,0 +1,5 @@
+RUN	simulations.CorrelationApiCheckResponseAndExtractData	correlationapicheckresponseandextractdata	1660211221698	 	3.5.1
+USER	To check Api Correlation	START	1660211222984
+REQUEST		to get list of users	1660211222997	1660211224438	OK	 
+REQUEST		get the specific user	1660211229504	1660211229879	OK	 
+USER	To check Api Correlation	END	1660211229883

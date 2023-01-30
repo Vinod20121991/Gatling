@@ -1,0 +1,61 @@
+RUN	simulations.RampUsersLoadTest	rampusersloadtest	1674460155813	loadtesting	3.5.1
+USER	To check Api Correlation	START	1674460162216
+USER	To check Api Correlation	START	1674460162211
+USER	To check Api Correlation	START	1674460162211
+USER	To check Api Correlation	START	1674460162211
+USER	To check Api Correlation	START	1674460162211
+USER	To check Api Correlation	START	1674460162211
+USER	To check Api Correlation	START	1674460163193
+REQUEST		to get list of users	1674460162253	1674460163829	OK	 
+REQUEST		to get list of users	1674460162253	1674460163829	OK	 
+REQUEST		to get list of users	1674460162253	1674460163829	OK	 
+REQUEST		to get list of users	1674460162253	1674460163829	OK	 
+REQUEST		to get list of users	1674460162253	1674460164045	OK	 
+REQUEST		to get list of users	1674460162253	1674460164142	OK	 
+USER	To check Api Correlation	START	1674460164193
+REQUEST		to get list of users	1674460163194	1674460164446	OK	 
+USER	To check Api Correlation	START	1674460165192
+REQUEST		to get list of users	1674460164194	1674460165362	OK	 
+USER	To check Api Correlation	START	1674460166199
+REQUEST		to get list of users	1674460165193	1674460166631	OK	 
+USER	To check Api Correlation	START	1674460167201
+REQUEST		to get list of users	1674460166200	1674460167411	OK	 
+USER	To check Api Correlation	START	1674460168191
+REQUEST		to get list of users	1674460167202	1674460168656	OK	 
+USER	To check Api Correlation	START	1674460169199
+REQUEST		get the specific user	1674460168951	1674460169539	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+REQUEST		get the specific user	1674460168951	1674460169520	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+REQUEST		get the specific user	1674460168951	1674460169539	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+REQUEST		get the specific user	1674460168951	1674460169539	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460169547
+USER	To check Api Correlation	END	1674460169547
+USER	To check Api Correlation	END	1674460169547
+USER	To check Api Correlation	END	1674460169547
+REQUEST		get the specific user	1674460169051	1674460169659	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460169663
+REQUEST		to get list of users	1674460168193	1674460169677	OK	 
+REQUEST		get the specific user	1674460169156	1674460169727	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460169731
+REQUEST		get the specific user	1674460169457	1674460170019	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460170023
+USER	To check Api Correlation	START	1674460170192
+REQUEST		to get list of users	1674460169201	1674460170383	OK	 
+REQUEST		get the specific user	1674460170375	1674460170892	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460170911
+USER	To check Api Correlation	START	1674460171200
+REQUEST		to get list of users	1674460170193	1674460171257	OK	 
+REQUEST		to get list of users	1674460171201	1674460172380	OK	 
+REQUEST		get the specific user	1674460171650	1674460172499	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460172502
+REQUEST		get the specific user	1674460172424	1674460172968	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460172971
+REQUEST		get the specific user	1674460173666	1674460174225	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460174228
+REQUEST		get the specific user	1674460174681	1674460175602	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460175606
+REQUEST		get the specific user	1674460175399	1674460176011	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460176014
+REQUEST		get the specific user	1674460176266	1674460176610	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460176613
+REQUEST		get the specific user	1674460177384	1674460177957	KO	jsonPath($.data.id).find.is(3177), but actually found 3008
+USER	To check Api Correlation	END	1674460177963

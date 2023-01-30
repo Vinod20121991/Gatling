@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.LoopRequestUsingRepeat",
+  "simulationId": "looprequestusingrepeat",
+  "start": 1674320093984,
+  "description": "loop",
+  "scenarios": ["To check the Loop concept of the Request"],
+  "assertions": [
+
+  ]
+}

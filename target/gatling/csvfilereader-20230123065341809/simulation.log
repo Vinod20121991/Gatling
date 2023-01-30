@@ -1,0 +1,10 @@
+RUN	simulations.CSVFileReader	csvfilereader	1674456821809	csvtest	3.5.1
+USER	to get data from csv feeder	START	1674456823579
+REQUEST		to read data from csv file	1674456823602	1674456825189	OK	 
+REQUEST		to read data from csv file	1674456825232	1674456825753	OK	 
+REQUEST		to read data from csv file	1674456825758	1674456826124	OK	 
+REQUEST		to read data from csv file	1674456826127	1674456826510	OK	 
+REQUEST		to read data from csv file	1674456826511	1674456826892	OK	 
+REQUEST		to read data from csv file	1674456826893	1674456827277	OK	 
+REQUEST		to read data from csv file	1674456827278	1674456827679	OK	 
+USER	to get data from csv feeder	END	1674456827681

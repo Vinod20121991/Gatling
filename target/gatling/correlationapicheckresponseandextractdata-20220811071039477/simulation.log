@@ -1,0 +1,5 @@
+RUN	simulations.CorrelationApiCheckResponseAndExtractData	correlationapicheckresponseandextractdata	1660201839477	testqa	3.5.1
+USER	To check Api Correlation	START	1660201840777
+REQUEST		to get list of users	1660201840789	1660201842171	KO	jsonPath($.[0].id).find.exists extraction crashed: end of input expected
+ERROR	get the specific user: Failed to build request: No attribute named 'userId' is defined 	1660201842220
+USER	To check Api Correlation	END	1660201842221

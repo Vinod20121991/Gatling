@@ -1,0 +1,5 @@
+RUN	simulations.CorrelationApiCheckResponseAndExtractData	correlationapicheckresponseandextractdata	1674218054672	testcorrelation	3.5.1
+USER	To check Api Correlation	START	1674218056438
+REQUEST		to get list of users	1674218056456	1674218058123	OK	 
+REQUEST		get the specific user	1674218063186	1674218063734	KO	jsonPath($.data.id).find.is(3179), but actually found 3177
+USER	To check Api Correlation	END	1674218063754

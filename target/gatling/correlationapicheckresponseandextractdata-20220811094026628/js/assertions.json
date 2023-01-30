@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CorrelationApiCheckResponseAndExtractData",
+  "simulationId": "correlationapicheckresponseandextractdata",
+  "start": 1660210826628,
+  "description": "test",
+  "scenarios": ["To check Api Correlation"],
+  "assertions": [
+
+  ]
+}

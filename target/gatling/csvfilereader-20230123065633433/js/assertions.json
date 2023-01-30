@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CSVFileReader",
+  "simulationId": "csvfilereader",
+  "start": 1674456993433,
+  "description": "csv",
+  "scenarios": ["to get data from csv feeder"],
+  "assertions": [
+
+  ]
+}

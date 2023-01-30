@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.RampUsersLoadTest",
+  "simulationId": "rampusersloadtest",
+  "start": 1674460519425,
+  "description": "Ramp",
+  "scenarios": ["To check Api Correlation"],
+  "assertions": [
+
+  ]
+}

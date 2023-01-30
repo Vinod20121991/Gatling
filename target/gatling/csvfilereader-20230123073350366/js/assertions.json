@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CSVFileReader",
+  "simulationId": "csvfilereader",
+  "start": 1674459230366,
+  "description": "rampusers",
+  "scenarios": ["to get data from csv feeder"],
+  "assertions": [
+
+  ]
+}

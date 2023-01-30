@@ -1,0 +1,5 @@
+RUN	simulations.CorrelationApiCheckResponseAndExtractData	correlationapicheckresponseandextractdata	1660210144767	test	3.5.1
+USER	To check Api Correlation	START	1660210146342
+REQUEST		to get list of users	1660210146356	1660210147646	KO	jsonPath($.[0].id).find.exists extraction crashed: end of input expected
+REQUEST		get the specific user	1660210147690	1660210148022	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 404
+USER	To check Api Correlation	END	1660210148029

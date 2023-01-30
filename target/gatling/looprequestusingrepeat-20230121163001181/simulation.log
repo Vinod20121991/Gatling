@@ -1,0 +1,7 @@
+RUN	simulations.LoopRequestUsingRepeat	looprequestusingrepeat	1674318601181	loopcallrequests	3.5.1
+USER	To check the Loop concept of the Request	START	1674318602883
+REQUEST		get all the list of users	1674318602959	1674318604665	OK	 
+REQUEST		get single specific user details	1674318607689	1674318607742	OK	 
+REQUEST		Add new user	1674318610760	1674318611161	OK	 
+REQUEST		Add new user	1674318611163	1674318611501	OK	 
+USER	To check the Loop concept of the Request	END	1674318611507

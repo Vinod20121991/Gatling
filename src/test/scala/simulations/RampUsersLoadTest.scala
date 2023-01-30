@@ -1,0 +1,35 @@
+package simulations
+
+import io.gatling.core.scenario.Simulation
+import io.gatling.core.Predef._
+import io.gatling.http.Predef._
+import io.gatling.core.Predef.Simulation
+import scala.concurrent.duration._
+import scala.language.postfixOps
+
+class RampUsersLoadTest extends Simulation{
+
+  val httpConf = http.baseUrl("https://gorest.co.in/")
+    .header("Authorization","Bearer 469dc46c06a83ab7f6a3c46fcde8a01af15b83088e4a51fe00bf1bfa6d76b26b")
+
+  val scn = scenario("To check Api Correlation")
+
+      //1st call to get all the list of users
+      .exec(http("to get list of users")
+        .get("public-api/users")
+        .check(jsonPath("$.data[1].id").saveAs("userId")))
+
+        .pause(5)
+
+        //2nd call get the specific user details
+        .exec(http("get the specific user")
+          .get("public-api/users/${userId}")
+          .check(jsonPath("$.data.id").is("200096"))
+          .check(jsonPath("$.data.name").is("Charak Iyer"))
+          .check(jsonPath("$.data.email").is("charak_iyer@schumm-zboncak.co")))
+
+  setUp(scn.inject(nothingFor(5),
+    atOnceUsers(20),
+    rampUsers(30) during(10))).protocols(httpConf).maxDuration(1 minute)
+
+}
